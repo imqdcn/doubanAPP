@@ -38,6 +38,8 @@ npm run build --report
 4. 点击 item 展示详情页（见效果图：2,4,6）
 5. 返回列表页等功能。
 
+![效果图1](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/01.png)
+
 ## 附：豆瓣API数据地址
 
 1. 图书地址：
