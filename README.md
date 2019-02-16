@@ -40,11 +40,14 @@ npm run build --report
 
 ![效果图1](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/01.png)
 ![效果图2](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/02.png)
+
 ![效果图3](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/03.png)
 ![效果图4](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/04.png)
+
 ![效果图5](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/05.png)
 ![效果图6](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/06.png)
-![效果图7](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/07.png)
+
+![效果图7](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/07.jpg)
 
 ## 附：豆瓣API数据地址
 
