@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        .details {
+          width: 100%;
+          position: fixed;
+          left: 0;
+          top: 0;
+          bottom: 0.88rem;
+          overflow-y: scroll;
+          z-index: 30;
+          background-color: #fff;
+          -webkit-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+        }
+        .details.move-enter,
+        .details.move-leave {
+          -webkit-transform: translate(0, 0);
+                  transform: translate(0, 0);
+        }
+        .details.move-enter-active,
+        .details.move-leave-active {
+          -webkit-transform: translate(100%, 0);
+                  transform: translate(100%, 0);
+        }
+        .details .topBar {
+          background-color: #3CA2FF;
+          height: 0.7rem;
+          line-height: 0.7rem;
+          padding-left: 0.1rem;
+          overflow: hidden;
+          position: relative;
+        }
+        .details .topBar span {
+          font-size: 0.26rem;
+          position: absolute;
+          top: 0;
+          left: 0.1rem;
+          width: 1.5rem;
+        }
+        .details .topBar span i {
+          vertical-align: -1px;
+        }
+        .details .topBar h2 {
+          font-size: 0.32rem;
+          text-align: center;
+          font-weight: 400;
+        }
+        .post {
+          padding: 0.1rem;
+        }
+        .post .infoList {
+          height: 2.7rem;
+          padding-bottom: 0.2rem;
+          overflow: hidden;
+          border-bottom: 1px solid #ddd;
+        }
+        .post .infoList .pic {
+          width: 1.65rem;
+          height: 2.45rem;
+        }
+        .post .infoList .pItem {
+          width: 4.25rem;
+        }
+        .postTxt {
+          font-size: 0.2rem;
+          padding: 0.2rem 0;
+        }
+        .postTxt h3 {
+          font-size: 0.24rem;
+          text-align: center;
+          padding-top: 0.1rem;
+          border-bottom: 1px dashed #ddd;
+          padding-bottom: 0.1rem;
+          margin-bottom: 0.1rem;
+        }
+        .postTxt p {
+          text-indent: 2em;
+        }
+    </style>
+</head>
+<body>
+    <!-- 详情页默认不显示，点击li时将数据传递过来，并通过更改showFlag的值切换可见性 -->
+   <div class="bDetails details" v-show="showFlag">
+       <!-- 顶栏 -->
+       <div class="topBar white">
+           <span><i class="iconfont icon-left"></i>图书</span>
+           <h2>腾讯传</h2>
+       </div>
+       <!--内容主体  -->
+       <div class="post">
+           <!-- 图书信息 -->
+           <div class="infoList clearfix">
+               <div class="pic"><img src="../assets/1.jpg"></div>
+               <div class="pItem">
+                   <h4 class="black cutFont">名称：移动联通电信4G手机</h4>
+                   
+                   <p>作者：罗伯特</p>
+                   <p>出版社：浙江大学出版社</p>
+                   <div>时间：2018-12-7</div>
+                   <p>评分：9.0</p>
+                   <p>价格：58.0</p>
+                   <div class="tags">
+                       <span>推荐</span><span>真好</span>
+                   </div>
+               </div>
+           </div>
+           <section class="postTxt">
+           <!-- 图书序言：对应catlog数据 -->
+               <h3>序言</h3>
+               <div class="txj">
+                   这里是序言部分
+               </div>
+               <!-- 简介：对应的是summary数据部分 -->
+               <h3>简介</h3>
+               <div class="txj">
+                   这里是简介部分
+               </div>
+           </section>
+       </div>
+   </div>
+</body>
+</html>

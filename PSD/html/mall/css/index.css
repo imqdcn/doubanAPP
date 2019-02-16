@@ -1,0 +1,68 @@
+/*字体图标*/
+
+@font-face {font-family: "iconfont";
+  src: url(../font/iconfont.eot); /* IE9*/
+  src: url('../font/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf?t=1540703806824') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg?t=1540703806824#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+.icon-iconfontjiantou:before { content: "\e638"; }
+
+.icon-jiantou-copy-copy-copy:before { content: "\e669"; }
+
+.icon-caidan:before { content: "\e601"; }
+
+.icon-shuaxin:before { content: "\e609"; }
+
+.icon-suo:before { content: "\e644"; }
+
+.icon-shaixuan:before { content: "\e789"; }
+
+
+/*头部代码*/
+#hbox{ height: 0.88rem; background-color: #ef3239; position: relative; border-bottom: 1px solid #b2b2b2}
+.menu,.refresh{ position: absolute; top:0; 
+width: 1.02rem; height: 0.76rem; text-align: center; line-height: 0.76rem;}
+.menu{left: 0;}
+.refresh{ right: 0; }
+.menu i,.refresh i{ font-size: 0.32rem; color:#fff; display: block;  }
+#hbox h2{ text-align: center; font-size: 0.32rem; font-weight: 400; line-height: 0.76rem;  }
+#hbox h2 i{ font-size: 0.2rem; margin-top: -2px; display: inline-block; vertical-align: 0.02rem; margin-right: 0.05rem }
+
+nav {
+    border-bottom: 1px solid #ccc;
+}
+nav ul li{ width: 1.6rem; float: left; height: 0.88rem; line-height: 0.88rem; text-align: center; font-size: 0.3rem;  }
+nav ul li a{ color: #888;  display: block; }
+nav .iconfont{ font-size: 0.32rem; margin-left: 0.05rem }
+
+nav .priceIco .iconfont{ 
+    font-size: 0.16rem;
+}
+nav .priceIco{width: 0.32rem;display: inline-block; line-height: 0.12rem;    vertical-align:-0.03rem;}
+/*产品主体*/
+.pList li{
+    height: 2.4rem;
+    padding: 0.2rem;
+    border-bottom: 1px solid #ddd;
+}
+.pList .pic{ float: left; width: 2rem; height: 2rem;background-color: #fff; text-align: center; }
+.pList .pic img{ max-width: 100%;max-height: 100%;  }
+.pList .pItem{ float: left; margin-left: 0.3rem; width: 3.65rem; overflow: hidden; }
+.pList .pItem h4{ font-size: 0.24rem ;font-weight: 400 }
+.pList .pItem h5{ font-size: 0.33rem; font-weight: 400; margin-top: 0.35rem;  }
+.pList .pItem div{ font-size: 0.24rem;  }
+.pList .pItem div span:nth-of-type(1){
+    margin-right: 0.1rem
+}

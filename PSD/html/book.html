@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+            <div class="searchBox">
+                <form action="#" id="searchForm" onsubmit="return false">
+                    <input type="text" class="ipt" placeholder="书名、作者">
+                    <input type="button" class="subBtn" value="搜索">
+                </form>
+            </div>
+            <!-- 展示图书信息 -->
+            <div class="content">
+                <ul class="infoList">
+                    <li>
+                        <div class="pic"><img src="../assets/1.jpg"></div>
+                        <div class="pItem">
+                            <h4 class="black">名称：移动联通电信4G手机</h4>
+                            <div class="tags">
+                                <span>推荐</span><span>真好</span>
+                            </div>
+                            <p>作者：罗伯特</p>
+                            <p>评分：9.0</p>
+                            <div class="gray">时间：2018-12-7</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <!-- 底部导航 -->
+            <div class="fixedTop"></div>
+            <ul class="navList">
+                <router-link :to="{path:'books'}" tag="li" exact>
+                    <a>
+                        <i class="iconfont icon-tushu"></i>
+                        <span>图书</span>
+                    </a>
+                </router-link>
+                <router-link :to="{path:'movies'}" tag="li">
+                    <a>
+                        <i class="iconfont icon-movie"></i>
+                        <span>电影</span>
+                    </a>
+                </router-link>
+                <router-link :to="{path:'music'}" tag="li">
+                    <a>
+                        <i class="iconfont icon-music"></i>
+                        <span>音乐</span>
+                    </a>
+                </router-link>
+               
+            </ul>
+</body>
+</html>

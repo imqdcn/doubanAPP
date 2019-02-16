@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--viewport一定要加 user-scalable 值可以是yes|no或1|0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=0" />
+    <!-- 禁止将数字转为号码 -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 控制顶栏状态栏显示样式，可以为透明 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- 添加一个网站图标，这样当你将网站添加到桌面图标时，会显示出来 -->
+    <link rel="apple-touch-icon-precomposed" href="mobile_logo.png?v1" />
+    <title>移动端开发模板</title>
+    <link rel="stylesheet" href="css/reset.css"/> 
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script>
+        (function(){
+            // 获取HTML根对象
+            var html=document.documentElement;
+            var whtml=html.getBoundingClientRect().width;
+            // 设计图为640/6.4=100
+            // 意味着100px=1rem
+            // 所以如果你量出的盒子的尺寸为20*30px 转为rem==>  0.2rem ,0.3rem
+            // 88px ===>  0.88 rem
+            html.style.fontSize=whtml/6.4+"px";
+        })();
+    </script>
+<body class="bgGray">
+  <!-- 网页内容 -->
+  <header id="hbox">
+      <a href="#" class="menu"><i class="iconfont icon-caidan"></i></a>
+      <h2 class="white"><i class="iconfont icon-suo"></i>首页</h2>
+      <a href="#" class="refresh"><i class="iconfont icon-shuaxin"></i></a>
+  </header>
+  <!-- 菜单部分 -->
+  <nav>
+      <ul class="clearfix">
+          <li><a href="#" class="red">综合<i class="iconfont icon-iconfontjiantou"></i></a></li>
+          <li><a href="#">销量</a></li>
+          <li><a href="#">价格
+            <span class="priceIco">
+                <i class="iconfont icon-jiantou-copy-copy-copy"></i>
+                <i class="iconfont icon-iconfontjiantou">
+                </i>
+            </span>
+          </a></li>
+          <li><a href="#">筛选<i class="iconfont icon-shaixuan"></i></a></li>
+      </ul>
+  </nav>
+  <!-- 主体内容 -->
+  <section>
+      <ul class="pList">
+          <li>
+            <a href="">
+              <div class="pic"><img src="img/iphone8.jpg"></div>
+              <div class="pItem">
+                  <h4 class="black">苹果（Apple）iPhone 8(A1863) 16GB 金色 移动联通电信4G手机</h4>
+                  <h5 class="red">￥4888.00</h5>
+                  <div class="gray"><span>好评96%</span><span>59091人</span></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="pic"><img src="img/iphone8.jpg"></div>
+              <div class="pItem">
+                  <h4 class="black">苹果（Apple）iPhone 8(A1863) 16GB 金色 移动联通电信4G手机</h4>
+                  <h5 class="red">￥4888.00</h5>
+                  <div class="gray"><span>好评96%</span><span>59091人</span></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="pic"><img src="img/iphone8.jpg"></div>
+              <div class="pItem">
+                  <h4 class="black">苹果（Apple）iPhone 8(A1863) 16GB 金色 移动联通电信4G手机</h4>
+                  <h5 class="red">￥4888.00</h5>
+                  <div class="gray"><span>好评96%</span><span>59091人</span></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="pic"><img src="img/iphone8.jpg"></div>
+              <div class="pItem">
+                  <h4 class="black">苹果（Apple）iPhone 8(A1863) 16GB 金色 移动联通电信4G手机</h4>
+                  <h5 class="red">￥4888.00</h5>
+                  <div class="gray"><span>好评96%</span><span>59091人</span></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="pic"><img src="img/iphone8.jpg"></div>
+              <div class="pItem">
+                  <h4 class="black">苹果（Apple）iPhone 8(A1863) 16GB 金色 移动联通电信4G手机</h4>
+                  <h5 class="red">￥4888.00</h5>
+                  <div class="gray"><span>好评96%</span><span>59091人</span></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="pic"><img src="img/iphone8.jpg"></div>
+              <div class="pItem">
+                  <h4 class="black">苹果（Apple）iPhone 8(A1863) 16GB 金色 移动联通电信4G手机</h4>
+                  <h5 class="red">￥4888.00</h5>
+                  <div class="gray"><span>好评96%</span><span>59091人</span></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="pic"><img src="img/iphone8.jpg"></div>
+              <div class="pItem">
+                  <h4 class="black">苹果（Apple）iPhone 8(A1863) 16GB 金色 移动联通电信4G手机</h4>
+                  <h5 class="red">￥4888.00</h5>
+                  <div class="gray"><span>好评96%</span><span>59091人</span></div>
+              </div>
+            </a>
+          </li>
+      </ul>
+  </section>
+</body>
+</html>
