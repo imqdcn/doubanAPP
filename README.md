@@ -23,7 +23,7 @@ npm run build --report
 
 本项目是给学生或新手练手使用，应用数据来自于豆瓣API，与豆瓣数据同步。
 
-本应用基于H5+CSS3+less+webpack模板+Vue(2.5+)+vue-router(3.0.1+)+vue-resource(1.5+)，运行在node.js平台上，即使用vue的全家桶工具构建。
+本应用基于`H5`+`CSS3`+`less`+`webpack模板`+`Vue(2.5+)`+`vue-router(3.0.1+)`+`vue-resource(1.5+)`，运行在`node.js`平台上，即使用`vue的全家桶工具`构建。
 
 > PS:因为用的是jsonp方式获取的豆瓣数据，所以没有使用目前官方推荐的vue-axios,axios解决方案。
 
@@ -39,6 +39,12 @@ npm run build --report
 5. 返回列表页等功能。
 
 ![效果图1](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/01.png)
+![效果图2](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/02.png)
+![效果图3](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/03.png)
+![效果图4](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/04.png)
+![效果图5](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/05.png)
+![效果图6](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/06.png)
+![效果图7](https://github.com/kouok/doubanAPP/blob/master/PSD/thumb/07.png)
 
 ## 附：豆瓣API数据地址
 
